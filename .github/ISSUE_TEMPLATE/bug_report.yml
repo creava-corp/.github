@@ -34,14 +34,14 @@ body:
     validations:
       required: true
   - type: input
-    id: environment
+    id: recall
     attributes:
       label: 不具合の再現率
       description: 不具合が発生する確率を記載してください。
     validations:
       required: true
   - type: textarea
-    id: process
+    id: expectations
     attributes:
       label: 期待する動作
       description: 本来あるべき動作を記載してください。
