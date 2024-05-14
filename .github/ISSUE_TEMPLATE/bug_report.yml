@@ -1,0 +1,53 @@
+# bug_report.yml
+name: バグ報告
+description: 不具合報告はこちら
+title: '🐛 '
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 発生している不具合の概要
+      description: |
+        不具合の概要を記載してください。
+        見た目に関係する場合は、スクリーンショット等を貼り付けてください。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 不具合が発生している環境
+      description: |
+        再現環境を記載してください。
+        例：商用環境 iOS15 Safari
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 不具合の再現手順
+      description: 不具合を再現させる手順を記載してください。
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+    validations:
+      required: true
+- type: input
+    id: environment
+    attributes:
+      label: 不具合の再現率
+      description: 不具合が発生する確率を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 期待する動作
+      description: 本来あるべき動作を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: supplement
+    attributes:
+      label: 補足
