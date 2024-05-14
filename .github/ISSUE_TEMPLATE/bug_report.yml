@@ -33,7 +33,7 @@ body:
         ...
     validations:
       required: true
-- type: input
+  - type: input
     id: environment
     attributes:
       label: 不具合の再現率
