@@ -1,0 +1,40 @@
+# feature_request.yml
+name: 機能開発
+description: 機能開発はこちら
+title: "✨ "
+body:
+  - type: textarea
+    id: why_what
+    attributes:
+      label: 目的・概要 - Why & What
+      description: |
+        何を、なぜやるのかわかるように記載してください
+  - type: textarea
+    id: spec
+    attributes:
+      label: 実装仕様 - Spec
+      description: |
+        実装仕様を定義してください
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: 完了定義 - Acceptance Criteria
+      description: この課題の完了定義を記載してください
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参照 - Reference
+      description: 参照が必要な資料、タスク管理へのリンクなどを記載してください
+      value: |
+        - 
+        -  
+        -
+  - type: textarea
+    id: task
+    attributes:
+      label: タスク - Task
+      description: この課題のタスクを列挙してください
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
